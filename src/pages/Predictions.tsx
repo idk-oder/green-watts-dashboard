@@ -58,7 +58,7 @@ export default function Predictions() {
             <CartesianGrid strokeDasharray="3 3" stroke="hsl(160, 10%, 20%)" />
             <XAxis dataKey="time" tick={{ fontSize: 11, fill: "hsl(160, 10%, 55%)" }} interval={3} />
             <YAxis tick={{ fontSize: 11, fill: "hsl(160, 10%, 55%)" }} unit=" kWh" />
-            <Tooltip contentStyle={{ background: "hsl(160, 15%, 9%)", border: "1px solid hsl(160, 10%, 16%)", borderRadius: 8, fontSize: 12 }} />
+            <Tooltip contentStyle={{ background: "rgba(0,0,0,0.85)", border: "1px solid hsl(160, 84%, 39%)", borderRadius: 8, fontSize: 12, color: "#fff", padding: 10 }} itemStyle={{ color: "#fff" }} labelStyle={{ color: "#fff" }} />
             <Legend wrapperStyle={{ fontSize: 12 }} />
             <Line type="monotone" dataKey="actual" stroke="hsl(160, 84%, 45%)" strokeWidth={2} dot={false} name="Actual" />
             <Line type="monotone" dataKey="predicted" stroke="hsl(38, 92%, 50%)" strokeWidth={2} strokeDasharray="5 5" dot={false} name="AI Predicted" />
@@ -79,7 +79,7 @@ export default function Predictions() {
             <CartesianGrid strokeDasharray="3 3" stroke="hsl(160, 10%, 20%)" />
             <XAxis dataKey="day" tick={{ fontSize: 12, fill: "hsl(160, 10%, 55%)" }} />
             <YAxis tick={{ fontSize: 11, fill: "hsl(160, 10%, 55%)" }} unit=" kWh" />
-            <Tooltip contentStyle={{ background: "hsl(160, 15%, 9%)", border: "1px solid hsl(160, 10%, 16%)", borderRadius: 8, fontSize: 12 }} />
+            <Tooltip contentStyle={{ background: "rgba(0,0,0,0.85)", border: "1px solid hsl(160, 84%, 39%)", borderRadius: 8, fontSize: 12, color: "#fff", padding: 10 }} itemStyle={{ color: "#fff" }} labelStyle={{ color: "#fff" }} />
             <Area type="monotone" dataKey="predicted" stroke="hsl(210, 80%, 55%)" fill="url(#forecastGrad)" strokeWidth={2} name="Predicted (kWh)" />
           </AreaChart>
         </ResponsiveContainer>

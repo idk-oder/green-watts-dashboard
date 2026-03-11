@@ -1,4 +1,4 @@
-import { Home, BarChart3, Leaf, Brain, Lightbulb, Zap, Settings, Download } from "lucide-react";
+import { Home, BarChart3, Leaf, Brain, Lightbulb, Zap, Trophy } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import { useLocation } from "react-router-dom";
 import {
@@ -21,6 +21,7 @@ const navItems = [
   { title: "Carbon Footprint", url: "/carbon-footprint", icon: Leaf },
   { title: "AI Predictions", url: "/predictions", icon: Brain },
   { title: "Recommendations", url: "/recommendations", icon: Lightbulb },
+  { title: "Leaderboard", url: "/leaderboard", icon: Trophy },
 ];
 
 export function AppSidebar() {
