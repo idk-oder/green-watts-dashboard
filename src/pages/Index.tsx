@@ -72,7 +72,7 @@ const Index = () => {
             <CartesianGrid strokeDasharray="3 3" stroke="hsl(160, 10%, 20%)" />
             <XAxis dataKey="day" tick={{ fontSize: 12, fill: "hsl(160, 10%, 55%)" }} />
             <YAxis tick={{ fontSize: 11, fill: "hsl(160, 10%, 55%)" }} />
-            <Tooltip contentStyle={{ background: "hsl(160, 15%, 9%)", border: "1px solid hsl(160, 10%, 16%)", borderRadius: 8, fontSize: 12 }} />
+            <Tooltip contentStyle={{ background: "rgba(0,0,0,0.85)", border: "1px solid hsl(160, 84%, 39%)", borderRadius: 8, fontSize: 12, color: "#fff", padding: 10 }} itemStyle={{ color: "#fff" }} labelStyle={{ color: "#fff" }} />
             <Bar dataKey="energy" fill="hsl(160, 84%, 45%)" radius={[4, 4, 0, 0]} name="Energy (kWh)" />
             <Bar dataKey="carbon" fill="hsl(174, 72%, 40%)" radius={[4, 4, 0, 0]} name="CO₂ (kg)" />
           </BarChart>
