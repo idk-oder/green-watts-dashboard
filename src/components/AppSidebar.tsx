@@ -21,6 +21,7 @@ const navItems = [
   { title: "Carbon Footprint", url: "/carbon-footprint", icon: Leaf },
   { title: "AI Predictions", url: "/predictions", icon: Brain },
   { title: "Recommendations", url: "/recommendations", icon: Lightbulb },
+  { title: "Leaderboard", url: "/leaderboard", icon: Trophy },
 ];
 
 export function AppSidebar() {

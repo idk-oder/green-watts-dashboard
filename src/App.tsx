@@ -27,6 +27,7 @@ const App = () => (
           <Route path="/carbon-footprint" element={<CarbonFootprint />} />
           <Route path="/predictions" element={<Predictions />} />
           <Route path="/recommendations" element={<Recommendations />} />
+          <Route path="/leaderboard" element={<Leaderboard />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
