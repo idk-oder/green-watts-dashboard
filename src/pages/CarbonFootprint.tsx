@@ -81,7 +81,7 @@ export default function CarbonFootprint() {
               <CartesianGrid strokeDasharray="3 3" stroke="hsl(160, 10%, 20%)" />
               <XAxis dataKey="name" tick={{ fontSize: 10, fill: "hsl(160, 10%, 55%)" }} angle={-20} textAnchor="end" height={60} />
               <YAxis tick={{ fontSize: 11, fill: "hsl(160, 10%, 55%)" }} unit=" kg" />
-              <Tooltip contentStyle={{ background: "hsl(160, 15%, 9%)", border: "1px solid hsl(160, 10%, 16%)", borderRadius: 8, fontSize: 12 }} />
+              <Tooltip contentStyle={{ background: "rgba(0,0,0,0.85)", border: "1px solid hsl(160, 84%, 39%)", borderRadius: 8, fontSize: 12, color: "#fff", padding: 10 }} itemStyle={{ color: "#fff" }} labelStyle={{ color: "#fff" }} />
               <Bar dataKey="co2" name="CO₂ (kg)" radius={[4, 4, 0, 0]} fill="hsl(174, 72%, 40%)" />
             </BarChart>
           </ResponsiveContainer>
