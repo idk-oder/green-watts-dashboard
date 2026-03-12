@@ -1,4 +1,4 @@
-import { Home, BarChart3, Leaf, Brain, Lightbulb, Zap, Trophy } from "lucide-react";
+import { Home, BarChart3, Leaf, Brain, Lightbulb, Zap, Trophy, Bot } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import { useLocation } from "react-router-dom";
 import {
@@ -22,6 +22,7 @@ const navItems = [
   { title: "AI Predictions", url: "/predictions", icon: Brain },
   { title: "Recommendations", url: "/recommendations", icon: Lightbulb },
   { title: "Leaderboard", url: "/leaderboard", icon: Trophy },
+  { title: "AI Advisor", url: "/ai-advisor", icon: Bot },
 ];
 
 export function AppSidebar() {
