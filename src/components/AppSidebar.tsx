@@ -1,4 +1,4 @@
-import { Home, BarChart3, Leaf, Brain, Lightbulb, Zap, Trophy } from "lucide-react";
+import { Home, BarChart3, Leaf, Brain, Lightbulb, Zap, Trophy, Bot } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import { useLocation } from "react-router-dom";
 import {
