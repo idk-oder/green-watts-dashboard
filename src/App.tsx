@@ -10,6 +10,7 @@ import CarbonFootprint from "./pages/CarbonFootprint";
 import Predictions from "./pages/Predictions";
 import Recommendations from "./pages/Recommendations";
 import Leaderboard from "./pages/Leaderboard";
+import AIAdvisor from "./pages/AIAdvisor";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
